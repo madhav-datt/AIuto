@@ -49,6 +49,61 @@ sentiment_api_url = text_analytics_base_url + "sentiment"
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
 
+api = tweepy.API(auth)
+api.wait_on_rate_limit = True
+api.wait_on_rate_limit_notify = True
 
 
+def tweet_to_supporters(lang, lat, long, ref_id):
+    blob = tweepy.Cursor(api.search,
+                         q='#vhacks OR #migrants OR #refugees',
+                         lang=lang,
+                         geocode='{lat},{long},20km'.format(
+                             lat=lat, long=long)).items()
 
+    tweet_list = []
+
+    for tweet in blob:
+        tweet_list.append(tweet._json)
+
+    # Sample for random 25 tweets because cog services are limited
+    sample = random.sample(tweet_list, 25)
+
+    documents = {'documents': []}
+
+    for tweet in sample:
+        documents['documents'].append(
+            {'id': tweet['id'], 'language': tweet['lang'],
+             'text': tweet['text']})
+
+    # pp.pprint(documents)
+
+    headers = {"Ocp-Apim-Subscription-Key": subscription_key}
+    response = requests.post(sentiment_api_url, headers=headers, json=documents)
+    sentiments = response.json()['documents']
+
+    id_score = sorted(sentiments, key=lambda k: k['score'], reverse=True)
+
+    top_scores = id_score[:5]
+
+    handles = []
+
+    for element in top_scores:
+        for tweet in sample:
+            if tweet['id_str'] == element['id']:
+                handles.append(tweet['user']['screen_name'])
+
+    for handle in handles:
+        api.update_status("@." + handle + '. You\'ve expressed an interest in '
+                                          'helping refugees. We\'ve specially '
+                                          'identified you as someone that '
+                                          'could make a difference. Someone '
+                                          'in your local area needs you. Text '
+                                          '+447480619900 with reference code *'
+                          + str(ref_id))
+        time.sleep(1)
+
+    pp.pprint(handles)
+
+
+   
