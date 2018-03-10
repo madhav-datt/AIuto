@@ -6,13 +6,17 @@ The word is so powerful. When asking for help, we are often at our most vulnerab
 
 **Aiuto.** *Help.*
 
-It can be one of the most profound and intimate things humans can do for eachother. What seems like a small action for you could cause major improvements to someone else's quality of life.
+It can be one of the most profound and intimate things humans can do for each-other. What seems like a small action for you could cause major improvements to someone else's quality of life.
 
 **AIuto.** *Our project.*
 
-Using artifical intelligence (AI), we can provide this help. We can optimise for certain issues that prevent refugees getting the aid they require (language barriers, distance and willingness to donate).
+Using artificial intelligence (AI), we can provide this help. We can optimise for certain issues that prevent refugees getting the aid they require (language barriers, distance and willingness to donate).
 
 ### Inspiration
+
+Imagine you were a high school student in Syria when the war broke out. You were forced to leave behind everything and everyone you know, and get on a boat into the unknown. After spending weeks on Mediterranean waters, you reach someplace far from what you used to call home, where you don't have a place to live, can't find the job, and don't speak the language. People in these communities need immediate solutions. Being able to get access to simple, everyday things like water, clothes, and temporary shelter become a matter of survival. In this project, we use artificial intelligence technology to develop a very human centered solution to help people facing these immediate and acute crises situations.
+
+### Our process and thinking
 
 After some of the excellent talks we have attended over the last two days, the entire team felt empowered to make something that would make the world a better place.
 
@@ -32,7 +36,7 @@ They can text our special AIuto phone number, and after a brief chatbot interact
 
 *The need for human interaction cannot be underestimated, and while offering food/drink and services, sometimes humans just need to be listened to by other humans.*
 
-These tweets are then run through a sentiment analysis engine, so we can intelligently guage how our potential aid providers feel towards M&Rs. A handful of the most positive local Twitter users are selected, and directly tweeted a reference number. This facilitates communication between the two parties while maintaining anonymity - a growing concern in society today.
+These tweets are then run through a sentiment analysis engine, so we can intelligently gauge how our potential aid providers feel towards M&Rs. A handful of the most positive local Twitter users are selected, and directly tweeted a reference number. This facilitates communication between the two parties while maintaining anonymity - a growing concern in society today.
 
 From this point, our SMS messaging service provides on-the-fly translation between both the refugee and the supporter with absolutely no need for the internet. A relationship can build as trust between the chat participants builds. A place to convene can be organised, and the required items can be provided to those in need.
 
@@ -44,23 +48,23 @@ Twilio was used to allow a data-free SMS service to interact with the Internet. 
 
 ### Challenges we ran into
 
-While M&Rs experience interacting with the system is entirely data-free, to actually develop the application we heavily relied on access to the Internet. Connection was occasionally dropped, which made debugging (and overall development) slightly more long-winded than expected. However, we used this 'dead time' more approriately with other offline activities.
+While M&Rs experience interacting with the system is entirely data-free, to actually develop the application we heavily relied on access to the Internet. Connection was occasionally dropped, which made debugging (and overall development) slightly more long-winded than expected. However, we used this 'dead time' more appropriately with other offline activities.
 
-Getting the Twilio intergrations working was also challenging. SMS in a foreign country turned out to open many questions (how much am I getting charged for this text? What are the limitations of the free account?).
+Getting the Twilio integrations working was also challenging. SMS in a foreign country turned out to open many questions (how much am I getting charged for this text? What are the limitations of the free account?).
 
-Jetlag has also been another major factor for some team members. Travelling overseas to new countries is exciting, but undeniably a tiring experience.
+Jet-lag has also been another major factor for some team members. Travelling overseas to new countries is exciting, but undeniably a tiring experience.
 
 ### Accomplishments that we are proud of
 
-Contributing to society and being part of such a rich and cultural event is an amazing oppurtunity and something we are all proud of. By even being selected we are all humbled and thankful.
+Contributing to society and being part of such a rich and cultural event is an amazing opportunity and something we are all proud of. By even being selected we are all humbled and thankful.
 
 More project-specifically, the collaboration in our team has been fantastic from the first few moments to the very end. Only a few days ago, we were all complete strangers, but now we are so much more.
 
-The delegation and separation of roles has led to a far more structured and consistent development methodology, while the trust we all have in eachother's abilities allows us to not worry about parts of the system we are not responsible for.
+The delegation and separation of roles has led to a far more structured and consistent development methodology, while the trust we all have in each-other's abilities allows us to not worry about parts of the system we are not responsible for.
 
 Furthermore, the use of a wide range of technologies (a handful of which most of the team have never used before) means that not only has the event been an educational one culturally, but also technologically.
 
-Finally, the creation of an entire end-to-end system which behaves consistently and as expected, paired with a beautiful website and fully thought plans for sustaining this endevour as long as possible means this is without a doubt the hackathon we are all most proud of. None of us could have dreamed of producing a more polished product in such a small time.
+Finally, the creation of an entire end-to-end system which behaves consistently and as expected, paired with a beautiful website and fully thought plans for sustaining this endeavour as long as possible means this is without a doubt the hackathon we are all most proud of. None of us could have dreamed of producing a more polished product in such a small time.
 
 ### What we learned
 
@@ -72,7 +76,7 @@ So much more. While our current solution is scaleable, we can optimise. Partners
 
 Widening the platform to analyse not only Twitter, but a variety of other metrics is another step that would improve the quality of results.
 
-Improving the awareness of this solution. If people do not use the platform, it is of no use to anyone. We should market this, hand out leaflets and pamphlets in a variety of languages and encourage users to spead this by word of mouth.
+Improving the awareness of this solution. If people do not use the platform, it is of no use to anyone. We should market this, hand out leaflets and pamphlets in a variety of languages and encourage users to spread this by word of mouth.
 
 Partnerships using local businesses with excess food that may be donated, to not only help refugees but also reduce waste.
 
