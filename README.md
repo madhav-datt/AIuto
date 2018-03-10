@@ -82,7 +82,9 @@ Partnerships using local businesses with excess food that may be donated, to not
 
 The possibilities are endless. If this entire system and roadmap can be created to a high quality in only 36 hours, imagine what could be produced in even more time.
 
-This README can be found in the following languages:
+#### This README can be found in the following languages:
 * [Arabic](https://pastebin.com/ZRPFcgXL)
 * [French](https://pastebin.com/4Rs7T2HJ)
 * [Italian](https://pastebin.com/aQwJDSas)
+
+### Made with :heart: at the Vatican
