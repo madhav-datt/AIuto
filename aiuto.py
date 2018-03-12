@@ -1,3 +1,6 @@
+# Made at VHacks 2018 (Hackathon at the Vatican)
+#
+
 from twilio.rest import Client
 from googletrans import Translator
 import time
