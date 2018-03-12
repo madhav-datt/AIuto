@@ -87,4 +87,4 @@ The possibilities are endless. If this entire system and roadmap can be created 
 * [French](https://pastebin.com/4Rs7T2HJ)
 * [Italian](https://pastebin.com/aQwJDSas)
 
-### Made with :heart: at the Vatican
+### Made with :heart: at the Vatican, by [Madhav Datt](https://github.com/madhav-datt), [Sam Warner](https://github.com/sjwarner), [Ge Gao](https://github.com/gg0027), [Ryan Rose](https://www.linkedin.com/in/hiromurose/), and [Ibrahim Malik]()
